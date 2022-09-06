@@ -4,3 +4,9 @@
 
 layout: home
 ---
+
+
+Front page is here
+
+
+This is the main page
