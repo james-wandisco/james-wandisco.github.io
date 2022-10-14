@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2022-10-15 00:06:10 +0100
-categories: jekyll update
+title:  "How to generate self-signed TLS certificates"
+date:   2022-10-14 00:06:10 +0100
+categories: Articles
 ---
 # Generate self signed TLS certificates
 
