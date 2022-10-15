@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="keywords" content=" ">
-<title>Page Not Found | Jekyll theme for documentation</title>
+<title> | Jekyll theme for documentation</title>
 <link rel="stylesheet" href="css/syntax.css">
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -181,7 +181,7 @@
 
 
 
-  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:tomjoht@gmail.com?subject=Jekyll documentation theme feedback&body=I have some feedback about the Page Not Found page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:tomjoht@gmail.com?subject=Jekyll documentation theme feedback&body=I have some feedback about the  page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
 
 </li>
 
@@ -201,7 +201,7 @@
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
                                 dataSource: 'search.json',
-                                searchResultTemplate: '<li><a href="{url}" title="Page Not Found">{title}</a></li>',
+                                searchResultTemplate: '<li><a href="{url}" title="">{title}</a></li>',
                     noResultsText: 'No results found.',
                             limit: 10,
                             fuzzy: true,
@@ -289,7 +289,7 @@
         <!-- Content Column -->
         <div class="col-md-9" id="tg-sb-content">
             <div class="post-header">
-   <h1 class="post-title-main">Page Not Found</h1>
+   <h1 class="post-title-main"></h1>
 </div>
 
 
@@ -328,11 +328,27 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" rel="noopener" href="https://github.com/tomjoht/documentation-theme-jekyll/blob/gh-pages/404.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" rel="noopener" href="https://github.com/tomjoht/documentation-theme-jekyll/blob/gh-pages/pdfconfigs/titlepage.html" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
 
     
 
-   <p>Sorry, but the page you were trying to view does not exist. Try searching for it or looking at the URL to see if it looks correct.</p>
+   <div class="printTitleArea">
+    <div class="printTitle"></div>
+    <div class="printSubtitle"></div>
+    <div class="lastGeneratedDate">Last generated: October 15, 2022</div>
+    <hr />
+
+    <div class="printTitleImage">
+        <img src="http://localhost:4000//images/company_logo_big.png" alt="Company Logo"/>
+    </div>
+
+    <div class="copyrightBoilerplate">
+        <p>&copy; 2022 Copyright 2021 Google LLC. This is a boilerplate copyright statement... All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law.
+        </p>
+
+    </div>
+
+</div>
 
 
     <div class="tags">

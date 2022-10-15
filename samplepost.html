@@ -4,9 +4,9 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="keywords" content=" ">
-<title>Page Not Found | Jekyll theme for documentation</title>
+<meta name="description" content="This is some summary frontmatter for my sample post.">
+<meta name="keywords" content="newsgetting_started,  ">
+<title>Sample post | Jekyll theme for documentation</title>
 <link rel="stylesheet" href="css/syntax.css">
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -181,7 +181,7 @@
 
 
 
-  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:tomjoht@gmail.com?subject=Jekyll documentation theme feedback&body=I have some feedback about the Page Not Found page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:tomjoht@gmail.com?subject=Jekyll documentation theme feedback&body=I have some feedback about the Sample post page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
 
 </li>
 
@@ -201,7 +201,7 @@
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
                                 dataSource: 'search.json',
-                                searchResultTemplate: '<li><a href="{url}" title="Page Not Found">{title}</a></li>',
+                                searchResultTemplate: '<li><a href="{url}" title="Sample post">{title}</a></li>',
                     noResultsText: 'No results found.',
                             limit: 10,
                             fuzzy: true,
@@ -288,64 +288,54 @@
 
         <!-- Content Column -->
         <div class="col-md-9" id="tg-sb-content">
-            <div class="post-header">
-   <h1 class="post-title-main">Page Not Found</h1>
-</div>
+            <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Sample post</h1>
+        <p class="post-meta"><time datetime="2016-02-26T00:00:00+00:00" itemprop="datePublished">Feb 26, 2016</time> /
+            
+            
+            
+            <a href="tag_news.html">news</a>, 
+            
+            
+            
+            <a href="tag_getting_started.html">getting_started</a>
+            
+            
+            
+
+        </p>
 
 
+    </header>
 
-<div class="post-content">
+    <div class="post-content" itemprop="articleBody">
 
-   
-
-    
-    
-<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
-<script>
-$( document ).ready(function() {
-  // Handler for .ready() called.
-
-$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
-
-/* this offset helps account for the space taken up by the floating toolbar. */
-$('#toc').on('click', 'a', function() {
-  var target = $(this.getAttribute('href'))
-    , scroll_target = target.offset().top
-
-  $(window).scrollTop(scroll_target - 10);
-  return false
-})
-
-});
-</script>
-
-<div id="toc"></div>
-
-
-
-    
-
-
-    
-
-    <a target="_blank" rel="noopener" href="https://github.com/tomjoht/documentation-theme-jekyll/blob/gh-pages/404.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
-
-    
-
-   <p>Sorry, but the page you were trying to view does not exist. Try searching for it or looking at the URL to see if it looks correct.</p>
-
-
-    <div class="tags">
         
+        <div class="summary">This is some summary frontmatter for my sample post.</div>
+        
+
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+
+<h2 id="heading">Heading</h2>
+
+<p>but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+
+
     </div>
 
 
 
+</article>
 
 
 
 
-</div>
+
+
 
 <hr class="shaded"/>
 
